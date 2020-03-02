@@ -1,73 +1,38 @@
 <!DOCTYPE html>
-
 <html lang="en" style="height: 100%">
-
 	<head>
-
 		<meta charset="utf-8" />
-
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
 		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
-
 		<link rel="icon" href="<%= BASE_URL %>favicon.ico" />
-
 		<title>IFrame Test</title>
-
 	</head>
 
-
-
 	<body style="height: 100%">
-
 		<noscript>
-
 			<strong
-
 				>We're sorry but the application doesn't work properly without
-
 				JavaScript enabled. Please enable it to continue.</strong
-
 			>
-
 		</noscript>
-
-		<div style="height: 400px; padding: 2%; background: rgba(167, 166, 166, 0.87); margin: 10px">
-
+		<div
+			style="height: 400px; padding: 2%; background: rgba(167, 166, 166, 0.87); margin: 10px"
+		>
 			<h2>Another Card</h2>
-
-			<p>Test no sandbox</p>
-
 		</div>
-
 		<div style="height: 100%; margin: 10px">
-
 			<iframe
-
 				frameborder="0"
-
 				class="wrapped-iframe"
-
 				width="100%"
-
 				height="100%"
-
 				gesture="media"
-
 				allow="encrypted-media"
-
 				allowfullscreen
-
-				src="https://dev.falkonry.ai:30081/accounts/Ncqhac7cg0b5sl/dashboards/123/assets/m2&output=embed"
-
+				src="https://dev.falkonry.ai:30080/accounts/Ncqhac7cg0b5sl/dashboards/123/assets/m2?output=embed"
 			></iframe>
-
 		</div>
-
 		<div id="app"></div>
-
 		<!-- built files will be auto injected -->
-
 	</body>
-
 </html>
